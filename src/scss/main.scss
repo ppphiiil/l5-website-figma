@@ -1,2 +1,54 @@
 // This is where you can import other stylesheets or write your scss code
-@import "../../node_modules/bootstrap/scss/bootstrap";
+// @import 'reset';
+@import 'config';
+
+
+.nav{
+display:flex;
+justify-content: space-between;
+padding: 10px;
+
+background-color: $color-nav;
+}
+
+.logo-text{
+    display:flex;
+    align-items: center;
+}
+
+
+.nav-container{
+display: flex;
+list-style-type: none;
+align-items: center;
+margin:0;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.header{
+display: flex;
+    position: relative;
+    justify-content: center;
+    
+    img{
+        width:100%;
+        height: 300px;
+    }
+
+    h1{
+        position: absolute;
+        color: $color-headline;
+        margin-top: 20px;
+  
+    }
+    
+}
+
+.color-footer{
+    background-color: $color-footer;
+}
+
+

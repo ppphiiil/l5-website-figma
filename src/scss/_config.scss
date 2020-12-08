@@ -1,0 +1,24 @@
+
+$color-nav:#ffffff;
+
+$color-main:#a9c0c2;
+$color-main-light:#d4e7e9;
+$color-main-dark:#73979b;
+
+$color-cta: #5c5a52; 
+$color-cta-dark: #645b2a; 
+$color-cta-light: #cfc9a8; 
+
+$color-second:#000000;
+
+$color-headline: black;
+
+$color-footer: black;
+
+.bg-primary{
+    background-color: $color-main !important;
+}
+
+.bg-dark{
+    background-color: $color-headline !important;
+}
